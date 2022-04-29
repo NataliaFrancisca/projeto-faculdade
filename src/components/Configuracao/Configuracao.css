@@ -1,0 +1,56 @@
+.container-configuracao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+}
+
+.container-configuracao fieldset{
+    min-width: 50%;
+    margin: 10px;
+    padding: 15px;
+    border: solid black 2px;
+}
+
+.container-configuracao legend{
+    font-size: 1.6em;
+}
+
+.container-configuracao label{
+    font-size: 1.4em;
+}
+
+.details-fields{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.text-styled{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.config-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.config-buttons button{
+    background-color: #000000;
+    border: solid black 2px;
+    color: #ffffff;
+    font-size: 1.4em;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.config-buttons button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: solid black 2px;
+}
