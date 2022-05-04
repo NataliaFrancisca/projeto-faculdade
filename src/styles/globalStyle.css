@@ -17,4 +17,94 @@
     justify-content: space-between;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+input, input:active{
+    width: 50%;
+    border: solid black;
+    border-width: 2px 2px 2px 6px;
+    padding: 5px 20px;
+    font-size: 1.2em;
+}
+
+textarea, textarea:active{
+    resize: none;
+    width: 50%;
+    border: solid black;
+    border-width: 2px 2px 2px 6px;
+    padding: 5px 20px;
+    font-size: 1.2em;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.container fieldset{
+    min-width: 60%;
+    margin: 10px;
+    padding: 15px;
+    border: solid black 2px;
+}
+
+.container legend{
+    font-size: 1.6em;
+}
+
+.container label{
+    font-size: 1.4em;
+}
+
+.container-fields{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container-buttons button{
+    background-color: #000000;
+    border: solid black 2px;
+    color: #ffffff;
+    font-size: 1.4em;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    min-width: 24%;
+}
+
+.container-buttons button i{
+    margin-left: 10px;
+}
+
+.container-buttons button:last-child{
+    margin-right: 0px;
+}
+
+.container-buttons button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: solid black 2px;
+}
+
+
+
+
 /* font-family: 'Goldman', cursive; */

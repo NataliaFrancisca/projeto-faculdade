@@ -11,7 +11,7 @@ const Footer = () => {
 		    </section>
 
             <span className="credito">
-                Projeto Integrado do curso Análise e Desenvolvimento 
+                Projeto Integrado do curso <br />Análise e Desenvolvimento 
                 de Sistemas - Faculdade das Américas (FAM)
             </span>
         </footer>

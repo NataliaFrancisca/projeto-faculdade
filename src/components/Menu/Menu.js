@@ -10,7 +10,9 @@ const Menu = () => {
         <div className="menu">
             <div className='menu-logo'>
                 <img src="images/logo.png" alt="Icone"/>
-                <h1 className='menu-title'>Catálogo de Peças</h1>
+                <NavLink to="/" exact>
+                    <h1 className='menu-title'>Catálogo de Peças</h1>
+                </NavLink>
             </div>
 
             <nav>

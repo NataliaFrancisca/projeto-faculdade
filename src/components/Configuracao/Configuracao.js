@@ -4,16 +4,20 @@ import "./Configuracao.css";
 
 const Configuracao = () => {
     return(
-        <section className="container-configuracao">
+        <section className="container">
              <fieldset>
                 <legend>Configuração</legend>
+                    <div class="details-fields">
+                        <label htmlFor="codFabricante">Versão Instalada: </label>
+                        <span className="text-styled" for="codFabricante">1.0</span>
+                    </div>
 
-                <div class="details-fields">
-                    <label for="codFabricante">Versão Instalada: <b>1.0</b></label>
-                    <label for="codFabricante">Data da última atualização: <b>29/04/2022</b></label>
-                </div>
+                    <div class="details-fields">
+                        <label htmlFor="codFabricante">Data da última atualização: </label>
+                        <span className="text-styled" for="codFabricante">29/04/2022</span>
+                    </div>
 
-                <div class="config-buttons">
+                <div class="container-buttons-config">
                     <button type="manutencao">Manutenção de Cadastro</button>
                     <button type="atualizacao">Verificar Atualizações</button>
                 </div>
@@ -23,7 +27,7 @@ const Configuracao = () => {
                 <legend>Dados de Licença</legend>
 
                 <div class="details-fields">
-                    <label for="codFabricante">Empresa Contratante: </label>
+                    <label htmlFor="codFabricante">Empresa Contratante: </label>
                     <span className="text-styled" for="codFabricante">FAM</span>
                 </div>
 
@@ -37,8 +41,6 @@ const Configuracao = () => {
                     <span className="text-styled" for="codFabricante">29/04/2022</span>
                 </div>
 
-               
-  
             </fieldset>
         </section>
     )

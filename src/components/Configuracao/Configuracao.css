@@ -33,13 +33,13 @@
     font-size: 1.4em;
 }
 
-.config-buttons{
+.container-buttons-config{
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
 }
 
-.config-buttons button{
+.container-buttons-config button{
     background-color: #000000;
     border: solid black 2px;
     color: #ffffff;
@@ -49,7 +49,7 @@
     padding: 5px 15px;
 }
 
-.config-buttons button:hover{
+.container-buttons-config button:hover{
     background-color: #ffffff;
     color: #000000;
     border: solid black 2px;

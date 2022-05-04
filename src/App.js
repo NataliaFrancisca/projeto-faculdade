@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Contato from './components/Contato'
+import Contato from './components/Contato/Contato'
 import Configuracao from './components/Configuracao/Configuracao'
 import Inicio from './components/Inicio/Inicio'
 import Menu from './components/Menu/Menu'
