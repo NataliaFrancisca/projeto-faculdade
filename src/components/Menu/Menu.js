@@ -11,7 +11,7 @@ const Menu = () => {
             <div className='menu-logo'>
                 <img src="images/logo.png" alt="Icone"/>
                 <NavLink to="/" exact>
-                    <h1 className='menu-title'>Catálogo de Peças</h1>
+                    <h1>Catálogo de Peças</h1>
                 </NavLink>
             </div>
 

@@ -14,10 +14,12 @@
 }
 
 .container-footer section span{
-    font-weight: 400;
-    font-size: 20pt;
+    font-weight: 600;
     color: white;
-    margin-left: 20px;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.2em;
 }
 
 .credito{

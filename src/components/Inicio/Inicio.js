@@ -11,7 +11,7 @@ const Inicio = () => {
     return(
         <section className="container">
             <fieldset>
-                <legend>Pesquisa por peça</legend>
+                <legend>Pesquisa por Peça</legend>
 
                 <form action="/" id="search-peca">
                     <div class="container-fields">

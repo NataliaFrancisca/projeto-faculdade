@@ -65,7 +65,7 @@ const Resultado = () => {
 
 
     return(
-        <section className="container-initial">
+        <section className="container">
             <fieldset class="result-search">
                 <legend> Resultado da Pesquisa</legend>
                 <table id="results">
