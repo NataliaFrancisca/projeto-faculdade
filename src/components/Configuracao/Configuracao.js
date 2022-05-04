@@ -7,14 +7,14 @@ const Configuracao = () => {
         <section className="container">
              <fieldset>
                 <legend>Configuração</legend>
-                    <div class="details-fields">
+                    <div className="details-fields">
                         <label htmlFor="codFabricante">Versão Instalada: </label>
-                        <span className="text-styled" for="codFabricante">1.0</span>
+                        <span className="text-styled" id="codFabricante">1.0</span>
                     </div>
 
-                    <div class="details-fields">
+                    <div className="details-fields">
                         <label htmlFor="codFabricante">Data da última atualização: </label>
-                        <span className="text-styled" for="codFabricante">29/04/2022</span>
+                        <span className="text-styled" id="codFabricante">29/04/2022</span>
                     </div>
 
                 <div class="container-buttons-config">
@@ -26,19 +26,19 @@ const Configuracao = () => {
             <fieldset>
                 <legend>Dados de Licença</legend>
 
-                <div class="details-fields">
+                <div className="details-fields">
                     <label htmlFor="codFabricante">Empresa Contratante: </label>
-                    <span className="text-styled" for="codFabricante">FAM</span>
+                    <span className="text-styled" id="codFabricante">FAM</span>
                 </div>
 
-                <div class="details-fields">
-                    <label for="codFabricante">Licença: </label>
-                    <span className="text-styled" for="codFabricante">Standard</span>
+                <div className="details-fields">
+                    <label htmlFor="codFabricante">Licença: </label>
+                    <span className="text-styled" id="codFabricante">Standard</span>
                 </div>
 
-                <div class="details-fields">
-                    <label for="codFabricante">Data de Contratação: </label>
-                    <span className="text-styled" for="codFabricante">29/04/2022</span>
+                <div className="details-fields">
+                    <label htmlFor="codFabricante">Data de Contratação: </label>
+                    <span className="text-styled" id="codFabricante">29/04/2022</span>
                 </div>
 
             </fieldset>

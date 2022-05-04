@@ -21,10 +21,10 @@ function App() {
 
         <main className='container-routes'>
           <Routes>
-            <Route path="/" element={<Inicio />} />
-            <Route path="/configuracao" element={<Configuracao />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="/resultado" element={<Resultado />} />
+            <Route path="/" exact element={<Inicio />} />
+            <Route path="/configuracao" exact element={<Configuracao />} />
+            <Route path="/contato" exact element={<Contato />} />
+            <Route path="/resultado" exact element={<Resultado />} />
           </Routes>   
         </main>
 

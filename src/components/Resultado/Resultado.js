@@ -66,7 +66,7 @@ const Resultado = () => {
 
     return(
         <section className="container">
-            <fieldset class="result-search">
+            <fieldset className="result-search">
                 <legend> Resultado da Pesquisa</legend>
                 <table id="results">
                     <tr>
@@ -80,7 +80,7 @@ const Resultado = () => {
                 </table>
 		    </fieldset>
 
-            <fieldset class="result-search">
+            <fieldset className="result-search">
                 <legend> Detalhes</legend>
                 <h3>Veículos</h3>
 
@@ -99,7 +99,7 @@ const Resultado = () => {
                     </tbody>
                 </table>
 
-                <section class="container-detalhes">
+                <section className="container-detalhes">
 
                     <table id="detalhes">
                         <tr>
@@ -127,7 +127,7 @@ const Resultado = () => {
                         </tbody>
                     </table>
 
-                    <img src={img} class="pecaImg" id="imgPeca" />
+                    <img src={img} className="pecaImg" id="imgPeca" />
 
                     {/* <div id="modalPecas" class="modal">
                         <span class="close">&times;</span>
